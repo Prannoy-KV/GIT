@@ -483,6 +483,7 @@ git reset --hard HEAD@{1}		# To go back to a commit, which was lost and then fou
 
 ```
 git commit --amend
+git commit --amend --no-edit	# If we wish to keep the edit message the same
 ```
 
 ### Amending an Earlier commit
