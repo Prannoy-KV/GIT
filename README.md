@@ -276,7 +276,8 @@ git checkout bugfix 					# Switches to the bugfix branch
 git switch bugfix 						# Same as the above
 git switch -C bugfix 					# Creates and switches
 git switch -C bugFix origin/bugFix		# Create a local branch based on some origin branch
-git branch -m bugFix signupBugFix		# Renaming a branch
+git branch -m bugFix signupBugFix		# Renaming a branch while pointed to any branch
+git branch -m signupBugFix				# Rename the current branch
 git branch -d bugfix 					# Deletes the bugfix branch
 git branch -D bugfix 					# Force Deletes the bugfix branch
 ```
