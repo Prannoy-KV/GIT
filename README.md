@@ -23,8 +23,8 @@ git version
 
 |                                                                     Command | Description                                                                                                            |
 | --------------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- |
-|                                  git config --global user.name "Prannoy KV" | To configure user name                                                                                                 |
-|                    git config --global user.email "k.vprannoydev@gmail.com" | To configure user email                                                                                                |
+|                                  git config --global user.name "<user_name>" | To configure user name                                                                                                 |
+|                    git config --global user.email "<user_email>" | To configure user email                                                                                                |
 |                               git config --global core.editor "code --wait" | Configure VS code as default editor and wait till the current opened files are closed                                  |
 |                                      git config --global core.autocrlf true | Setting line ending for windows (Mac and Windows follows different format so it's required)                            |
 |                                                      git config --global -e | To edit all global settings in a default editor                                                                        |
